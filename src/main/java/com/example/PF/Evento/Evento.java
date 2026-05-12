@@ -26,7 +26,7 @@ public class Evento {
 
     @ManyToOne
     @JoinColumn(name = "id_user")
-    private List<User> usuarios;
+    private User usuario;
 
     public static @NonNull Evento toModel(SaveEventoDTO saveEventoDTO) {
         Evento evento = new Evento();

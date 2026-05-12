@@ -23,7 +23,7 @@ public class User {
     private Integer cpf;
     @Column(nullable = false)
     private Papel papel;
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "usuario")
     private List<Evento> eventos;
 
 
