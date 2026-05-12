@@ -4,7 +4,7 @@ import com.example.PF.Evento.EditEventoDTO;
 
 import com.example.PF.Evento.ResponseEventoDTO;
 import com.example.PF.Evento.SaveEventoDTO;
-import com.example.PF.User.EventoService;
+import com.example.PF.Evento.EventoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

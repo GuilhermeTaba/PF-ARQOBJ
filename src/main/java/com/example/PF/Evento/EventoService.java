@@ -1,6 +1,7 @@
-package com.example.PF.User;
+package com.example.PF.Evento;
 
 import com.example.PF.Evento.*;
+import com.example.PF.User.UserService;
 import com.example.PF.exception.EventoAlreadyExists;
 import com.example.PF.exception.EventoNotFound;
 import com.example.PF.exception.UsuarioNotAdmin;
